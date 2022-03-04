@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear</title>
+</head>
+<body>
+ <!-- Logo -->
+ <img src="logo.png" alt="Logo pasteleria" width="200px">
+
+<h1>Pastelería Rosa</h1>
+
+<h2>Crea tu pastel</h2>
+<p>Seleccione sabores</p>
+
+
+<form>
+<div>
+    <label for="Sabor">Sabores:</label>
+    <select name="Sabores">
+        <option value="cho">Chocolate</option>
+        <option value="Va">Vainilla</option>
+        <option value="Za">Zanahoria</option>
+        <option value="Ma">Marmolado</option>
+        <option value="Ca">Cafe</option>
+        <option value="Red">Red Velvet</option>
+        <option value="" selected="selected">Selecciona Sabor...</option>
+    </select>
+</div><br>
+
+
+<div>
+    <label for="Sabores">Combinar con:</label>
+    <select name="Sabores">
+        <option value="No">Ninguno</option>
+        <option value="cho">Chocolate</option>
+        <option value="Va">Vainilla</option>
+        <option value="Za">Zanahoria</option>
+        <option value="Ma">Marmolado</option>
+        <option value="Ca">Cafe</option>
+        <option value="Red">Red Velvet</option>
+        <option value="" selected="selected">Selecciona Sabor...</option>
+    </select>
+</div><br>
+  
+<p>Seleccione Adornos</p>
+<div>
+    <label for="Adorno">Adorno:</label>
+    <select name="Adorno">
+        <option value="Noo">Ninguno</option>
+        <option value="cc">Chispas de Chocolate</option>
+        <option value="cocor">Coco rallado</option>
+        <option value="bacho">Baño de chocolate</option>
+        <option value="lu">Lunetas</option>
+        <option value="fd">Figura decorativa</option>
+        <option value="" selected="selected">Selecciona adorno...</option>
+    </select>
+</div><br>
+
+<p>Para completar tu pedido proporciona los siguientes datos:</p>
+
+<label for="nombre">Tu nombre:</label>
+<input type="text" id="nombre" name="nombre"><br><br>
+<label for="apellido">Apellido(s):</label>
+<input type="text" id="apellido" name="apellido" form="form1"><br><br>
+
+<input type="submit" name="submit" value="Crear pedido">
+<input type="reset" name="reset" value="Reset">
+</form>
+
+
+</body>
+</html>
